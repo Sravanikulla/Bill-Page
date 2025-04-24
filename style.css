@@ -1,0 +1,63 @@
+body {
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.receipt {
+  background: white;
+  width: 360px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+}
+
+.date {
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  font-size: 0.75em;
+  color: #bbb;
+  padding-bottom: 5px;
+}
+
+td {
+  padding: 8px 0;
+  font-size: 0.95em;
+  color: #333;
+}
+
+.total td {
+  font-weight: bold;
+  font-size: 1.05em;
+}
+
+.barcode {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.barcode img {
+  width: 80%;
+}
